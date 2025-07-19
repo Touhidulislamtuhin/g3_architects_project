@@ -159,8 +159,15 @@ section{
     .container_main{
         flex-direction: column;
     }
+    .div-left{
+        grid-template-columns: repeat(1,1fr);
+    }
     .div_right{
         text-align: center;
+        padding: 10px;
+    }
+    .banner_title{
+        font-size:30px;
     }
 
 }
