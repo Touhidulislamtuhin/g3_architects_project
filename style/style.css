@@ -1,0 +1,167 @@
+/* custom_font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+/* sheared Style */
+*{
+    margin:10px 0px;
+}
+
+
+                /* color */
+                .dark_1{
+                    color: #131313;
+                }
+                .dark_2{
+                    color: #424242;
+                }
+                .dark_3{
+                    color: #727272;
+                }
+
+     .button_style{
+        width: 180px;
+        height: 64px;
+        font-size: 20px;
+        padding:20px 24px;
+        background-color:#FF900E ;
+        color:white ;
+        border-radius:8px ;
+        border: none;
+     }           
+
+
+.flex{
+    display: flex;
+}
+.bg_color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/*Nav section*/
+
+.nav_item{
+    list-style: none;
+    margin-right: 40px;
+}
+
+.nav_link{
+    text-decoration: none;
+    
+}
+.nav{
+    padding-top: 20px;
+  justify-content: space-between;
+    max-width: 1140px;
+    margin: 0px auto;
+    align-items: center;
+}
+.brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav_link{
+    font-size: 1.12rem;
+    font-weight:500px;
+    color: #424242;
+}
+
+/* Banner section */
+.banner_content{
+    max-width: 862px;
+    margin:116px auto 50px auto;
+    /* margin-top: 116px;
+    margin-bottom: 50px; */
+    
+    
+}
+.banner{
+    text-align: center;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.banner_title{
+    font-size:4rem;
+    font-weight: bold;
+    color: #131313;
+}
+.banner_description{
+    font-size:16px ;
+    font-weight: normal;
+    color: #727272;
+}
+.banner img{
+    width: 100%;
+}
+
+/* mein section */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.container_main{
+    align-items: center;
+    gap: 73px;
+}
+.div-left{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+}
+.div_right{
+    max-width: 537px;
+}
+
+.left_img{
+    width: 100%
+  
+}
+
+.div_right_head{
+    font-size:2.8em ;
+    font-weight: bold;
+    color: #FF900E;
+}
+.div_right_container{
+    color: #727272
+}
+section{
+    margin-bottom: 20px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .navbar,
+    .nav,
+    .container_main{
+        flex-direction: column;
+    }
+    .div_right{
+        text-align: center;
+    }
+
+}
+  
